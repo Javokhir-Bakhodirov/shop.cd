@@ -31,26 +31,32 @@ const Profile = () => {
 								))}
 							</ul>
 							<div>
-								<label className="profile__label">
-									<p>Your name</p>
-									<input
-										className="input"
-										type="text"
-										placeholder="Enter your name"
-									/>
-								</label>
-								<label className="profile__label">
-									<p>Your email</p>
-									<input
-										className="input"
-										type="email"
-										placeholder="Enter your name"
-									/>
-								</label>
-								<label className="profile__label">
-									<p>Your message</p>
-									<textarea></textarea>
-								</label>
+								<div className="profile__label">
+									<label>
+										<p>Your name</p>
+										<input
+											className="input"
+											type="text"
+											placeholder="Enter your name"
+										/>
+									</label>
+								</div>
+								<div className="profile__label">
+									<label>
+										<p>Your email</p>
+										<input
+											className="input"
+											type="email"
+											placeholder="Enter your name"
+										/>
+									</label>
+								</div>
+								<div className="profile__label">
+									<label>
+										<p>Your message</p>
+										<textarea></textarea>
+									</label>
+								</div>
 							</div>
 							<button className="btn" type="submit">
 								Send message
