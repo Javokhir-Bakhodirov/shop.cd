@@ -1,0 +1,7 @@
+.comment-card {
+	width: 400px;
+	padding: 28px 32px 28px 32px;
+	border-radius: 20px;
+	border: 1px solid rgba(128, 128, 128, 0.687);
+	gap: 15px;
+}

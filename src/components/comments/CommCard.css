@@ -1,0 +1,13 @@
+.list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.customers {
+	padding-top: 80px;
+}
+
+.customers-content {
+	margin-bottom: 28px;
+}
